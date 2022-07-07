@@ -116,6 +116,22 @@ button{
     text-decoration: none;
     color:  #596D48;
 }
+fieldset p{
+    visibility: hidden;
+}
+
+.err-msg{
+    visibility: visible;
+    color: red;
+    font-size: 0.6rem;
+    font-weight: normal;
+}
+
+.error{
+    border: 2px solid red;
+}
+
+
 
 @media (min-width:780px) and (max-width:1440px){
     .container{
